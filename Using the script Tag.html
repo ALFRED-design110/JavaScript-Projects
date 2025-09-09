@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 3: The Script Tag</title>
+</head>
+<body>
+
+   <h1 id='header'>Welcome to my page!</h1>
+   
+   <button type='button' id="myButton">Click Me!</button>
+
+   <script>
+    let buttonElement = document.getElementById("myButton");
+    buttonElement.onclick = function() {
+       document.getElementById("header").innerHTML = "You clicked the button!";
+    };
+</script>
+
+</body>
+</html>
